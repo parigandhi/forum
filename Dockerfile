@@ -34,4 +34,8 @@ RUN wget https://download.phpbb.com/pub/release/3.3/3.3.0/phpBB-3.3.0.tar.bz2 \
 	&& echo "@define('PHPBB_INSTALLED', true);" >> config.php \
 	&& echo "@define('PHPBB_ENVIRONMENT', 'production');" >> config.php \
 	&& echo "@define('DEBUG_CONTAINER', true);" >> config.php \			
-	&& chmod -R 777 /var/www/html 
+	&& chmod -R 666 /var/www/html/config.php \
+	&& chmod -R 777 /var/www/html/store \
+	&& chmod -R 777 /var/www/html/cache \
+	&& chmod -R 777 /var/www/html/files \
+	&& chmod -R 777 /var/www/html/images/avatars/upload
