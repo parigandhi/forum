@@ -19,7 +19,7 @@ services:
     container_name: '${COMPOSE_PROJECT_NAME}-database'
     restart: 'always'
     ports:
-      - "127.0.0.1:${HOST_MACHINE_MYSQL_PORT}:3306"
+      - "${HOST_MACHINE_MYSQL_PORT}:3306"
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
