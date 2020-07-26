@@ -7,7 +7,7 @@ A sample project that runs phpBB forum on Apache web server using mySQL as the d
   <code>docker-compose down  </code><br/>
   <code>docker system prune -a </code><br/>
 
-<h3>Deploying the code to Google Cloud Platform:</h3><br/><br/>
+<h3>Deploying the code to Google Cloud Platform:</h3><br/>
  1. Create a GCP project.<br/><br/>
  2. Open the Cloud Console.<br/><br/>
  3. Clone the code
@@ -24,7 +24,7 @@ A sample project that runs phpBB forum on Apache web server using mySQL as the d
  appspot.com contains the container image and cloudbuild contains the source code as a tar file <br/><br/>
  7. Run the docker image on Google Cloud <br/>
  Syntax: <code> gcloud run deploy --image gcr.io/[project id]/[tag for the image]</code><br/>
-<code>gcloud run deploy --image gcr.io/my-docker-php-mysql/docker-gcp-tag></code><br/><br/>
+<code>gcloud run deploy --image gcr.io/my-docker-php-mysql/docker-gcp-tag</code><br/><br/>
 Google will  ask the target platform - Cloud Run (fully managed) - or - Cloud Run for Anthos deployed on Google Cloud-or- Cloud Run for Anthos deployed on VMWare<br/>
 Select Cloud Run (fully managed) <br/>
 Select enter to go with default service<br/>
