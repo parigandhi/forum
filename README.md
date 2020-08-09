@@ -6,6 +6,8 @@ A sample project that runs phpBB forum on Apache web server using mySQL as the d
   <code>docker-compose up -d  </code><br/>
   <code>docker-compose down  </code><br/>
   <code>docker system prune -a </code><br/>
+  <code>chmod +x portainer.sh</code><br/>
+  <code>./portainer.sh </code><br/>
 
 <h3>Deploying the code to Google Cloud Platform:</h3><br/>
  1. Create a GCP project.<br/><br/>
