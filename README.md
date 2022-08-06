@@ -1,5 +1,5 @@
 A sample project that runs phpBB forum on Apache web server using mySQL as the database server. Also includes phpmyadmin to view the database tables.  <br/>
-Loga was here
+
 <h3>Some useful commands:</h3><br/>
   <code> git clone https://github.com/parigandhi/forum.git  </code><br/><br/>
   <code>docker-compose build --no-cache </code> <br/>
@@ -34,3 +34,5 @@ Select y to enable API<br/>
 Select a region to deploy the service<br/>
 Select y to unauthenticated invocations<br/><br/>
 8. Once the service is published, Google Console will give you a URL to access the website. Click on it to launch your website.<br/><br/>
+
+Good luck
