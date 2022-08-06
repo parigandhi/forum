@@ -1,5 +1,5 @@
 A sample project that runs phpBB forum on Apache web server using mySQL as the database server. Also includes phpmyadmin to view the database tables.  <br/>
-
+Loga was here
 <h3>Some useful commands:</h3><br/>
   <code> git clone https://github.com/parigandhi/forum.git  </code><br/><br/>
   <code>docker-compose build --no-cache </code> <br/>
